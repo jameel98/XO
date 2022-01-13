@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/lined_paper_background">
+
+    <TextView
+        android:id="@+id/txtGameNamePlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/turnGameTime"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:width="70dp"
+        android:height="30dp"
+        android:text="@string/txtGamePlayer1"/>
+
+    <TextView
+        android:id="@+id/txtGameNamePlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/turnGameTime"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:width="70dp"
+        android:height="30dp"
+        android:text="@string/txtGamePlayer2"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/lolinGameTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/game_filed_design"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageButton
+                    android:id="@+id/btna1"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"/>
+
+                <ImageButton
+                    android:id="@+id/btnb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"/>
+
+                <ImageButton
+                    android:id="@+id/btnc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"/>
+
+
+                <ImageView
+                    android:id="@+id/imgGameWinHorizontal1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:paddingEnd="@dimen/winLinePadding"
+                    android:paddingLeft="@dimen/winLinePadding"
+                    android:paddingRight="@dimen/winLinePadding"
+                    android:paddingStart="@dimen/winLinePadding"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/win_line_design_3"
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageButton
+                    android:id="@+id/btna2"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"/>
+
+                <ImageButton
+                    android:id="@+id/btnb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"/>
+
+                <ImageButton
+                    android:id="@+id/btnc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"/>
+
+                <ImageView
+                    android:id="@+id/imgGameWinHorizontal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingEnd="@dimen/winLinePadding"
+                    android:paddingLeft="@dimen/winLinePadding"
+                    android:paddingRight="@dimen/winLinePadding"
+                    android:paddingStart="@dimen/winLinePadding"
+                    android:visibility="gone"
+                    android:clickable="false"
+                    app:srcCompat="@drawable/win_line_design_3"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageButton
+                    android:id="@+id/btna3"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"/>
+
+                <ImageButton
+                    android:id="@+id/btnb3"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"/>
+
+                <ImageButton
+                    android:id="@+id/btnc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"/>
+
+                <ImageView
+                    android:id="@+id/imgGameWinHorizontal3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingEnd="@dimen/winLinePadding"
+                    android:paddingLeft="@dimen/winLinePadding"
+                    android:paddingRight="@dimen/winLinePadding"
+                    android:paddingStart="@dimen/winLinePadding"
+                    android:visibility="gone"
+                    android:clickable="false"
+                    app:srcCompat="@drawable/win_line_design_3"
+
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@id/lolinGameTable"
+            android:weightSum="3"
+            android:gravity="center"
+
+            >
+
+            <ImageView
+                android:id="@+id/imgGameWinDownLeft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:clickable="false"
+                app:srcCompat="@drawable/win_line_design_4"
+                />
+
+            <ImageView
+                android:id="@+id/imgGameWinDownCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:clickable="false"
+                app:srcCompat="@drawable/win_line_design_4"/>
+
+            <ImageView
+                android:id="@+id/imgGameWinDownRight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:clickable="false"
+                app:srcCompat="@drawable/win_line_design_4"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgGameWinUpDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/lolinGameTable"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@id/lolinGameTable"
+            android:layout_centerHorizontal="true"
+            android:clickable="false"
+            android:visibility="gone"
+            app:srcCompat="@drawable/win_line_design_2"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/imgGameWinDownUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/lolinGameTable"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@id/lolinGameTable"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:clickable="false"
+            app:srcCompat="@drawable/win_line_design_1"
+            />
+
+        <TextView
+            android:id="@+id/turnGameTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="80dp"
+            android:height="30dp"
+            android:gravity="center"
+            android:text="@string/turnGameTime"
+            android:layout_below="@+id/imgGameWinUpDown"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageGamePlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignBottom="@+id/txtGamePlayer1"
+        android:layout_toLeftOf="@+id/txtGameNamePlayer2"
+        android:layout_toStartOf="@+id/txtGameNamePlayer2" />
+
+    <ImageView
+        android:id="@+id/imageGamePlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/txtGameNamePlayer1"
+        android:layout_toRightOf="@+id/txtGameNamePlayer1"
+        app:srcCompat="@mipmap/ic_xo"/>
+
+    <TextView
+        android:id="@+id/txtGameTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16.9sp"
+        tools:text="@string/turnGameTime"
+        android:layout_alignBottom="@+id/imageGamePlayer1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtGamePlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16.9sp"
+        tools:text="@string/txtGamePlayer1"
+        android:layout_below="@+id/txtGameNamePlayer1"
+        android:layout_alignLeft="@+id/txtGameNamePlayer1"
+        android:layout_alignStart="@+id/txtGameNamePlayer1" />
+
+    <TextView
+        android:id="@+id/txtGamePlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16.9sp"
+        tools:text="@string/txtGamePlayer2"
+        android:layout_below="@+id/txtGameNamePlayer2"
+        android:layout_toRightOf="@+id/imageGamePlayer1"
+        android:layout_toEndOf="@+id/imageGamePlayer1" />
+
+
+</RelativeLayout>

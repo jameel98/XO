@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:baselineAligned="false">
+
+
+    <EditText
+        android:id="@+id/et_Name"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignTop="@+id/txt_Name"
+        android:layout_toLeftOf="@+id/txt_Name"
+        android:layout_toEndOf="@+id/txt_Name" />
+
+    <EditText
+        android:id="@+id/et_GamesNumber"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/txt_Name"
+        android:layout_toLeftOf="@+id/txt_GamesNumber"
+        android:layout_toEndOf="@+id/txt_GamesNumber" />
+
+    <EditText
+        android:id="@+id/et_Lost"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/et_Won"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignTop="@+id/txt_Won"
+        android:layout_toLeftOf="@+id/txt_Won"
+        android:layout_toEndOf="@+id/txt_Won" />
+
+    <EditText
+        android:id="@+id/et_Draw"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_alignTop="@+id/txt_Draw"
+        android:layout_toLeftOf="@+id/et_Lost"
+        android:layout_toStartOf="@+id/et_Lost" />
+
+    <TextView
+        android:id="@+id/txt_Name"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="36dp"
+        android:textColor="@color/warm_purple"
+        android:textSize="20sp"
+        android:text="@string/txtName"
+        android:layout_below="@+id/txt_Statistic"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txt_GamesNumber"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:textColor="@color/warm_purple"
+        android:textSize="20sp"
+        tools:text="@string/txtGamesPlayed"
+        android:layout_alignTop="@+id/et_GamesNumber"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txt_Won"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_alignBaseline="@+id/txt_Lost"
+        android:layout_alignBottom="@+id/txt_Lost"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/warm_purple"
+        android:textSize="20sp"
+        tools:text="@string/txtWon" />
+
+    <TextView
+        android:id="@+id/txt_Lost"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textColor="@color/warm_purple"
+        android:textSize="20sp"
+        tools:text="@string/txtLost"
+        android:layout_alignTop="@+id/et_Lost"
+        android:layout_toLeftOf="@+id/et_Lost"
+        android:layout_toStartOf="@+id/et_Lost" />
+
+    <TextView
+        android:id="@+id/txt_Draw"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/txt_Won"
+        android:layout_marginTop="17dp"
+        android:layout_toLeftOf="@+id/et_Draw"
+        android:layout_toStartOf="@+id/et_Draw"
+        android:textColor="@color/warm_purple"
+        android:textSize="20sp"
+        tools:text="@string/txtDraw" />
+
+    <TextView
+        android:id="@+id/txt_Statistic"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:shadowDx="1.8369701987210297e-16"
+        android:shadowDy="3"
+        android:shadowRadius="7"
+        android:textColor="@color/warm_purple"
+        android:textSize="55sp"
+        tools:text="@string/txt_Statistic"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/et_Lost"
+        android:layout_toStartOf="@+id/et_Lost" />
+
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/lolinLstPlyTitles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/mtxtItmPlyName"
+            style="@style/TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtName"
+            android:textColor="@color/warm_purple"
+            android:textSize="20sp"
+            tools:text="Name"
+            />
+
+        <TextView
+            android:id="@+id/mtxtItmGamesNumber"
+            style="@style/TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtGamesPlayed"
+            android:textColor="@color/warm_purple"
+            android:textSize="20sp"
+            tools:text="Games"
+            />
+
+        <TextView
+            android:id="@+id/mtxtItmPLyWon"
+            style="@style/TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtWon"
+            android:textColor="@color/warm_purple"
+            android:textSize="20sp"
+            tools:text="Win"
+            />
+
+        <TextView
+            android:id="@+id/mtxtItmPlyLoss"
+            style="@style/TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtLost"
+            android:textColor="@color/warm_purple"
+            android:textSize="20sp"
+            tools:text="Lose"
+            />
+
+        <TextView
+            android:id="@+id/mtxtItmPlyDraw"
+            style="@style/TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtDraw"
+            android:textColor="@color/warm_purple"
+            android:textSize="20sp"
+            tools:text="Draws"/>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/lstLstPlyList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lolinLstPlyTitles" />
+</RelativeLayout>
