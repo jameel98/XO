@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "231043628485",
+    "firebase_url": "https://api-project-231043628485.firebaseio.com",
+    "project_id": "api-project-231043628485",
+    "storage_bucket": "api-project-231043628485.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231043628485:android:89275bf5e13396ec",
+        "android_client_info": {
+          "package_name": "il.co.techschool.xo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231043628485-2kngt7tr5cipbq8b1ojjpgkr2hkcm5mj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "il.co.techschool.xo",
+            "certificate_hash": "32cac85f7520b5859ccb82bd06f67be1c2a28a0f"
+          }
+        },
+        {
+          "client_id": "231043628485-4p602uua34r7fobf4072cql5khu218el.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "il.co.techschool.xo",
+            "certificate_hash": "58675de06bf68429f1f927081638c5c1c56637c8"
+          }
+        },
+        {
+          "client_id": "231043628485-6tm5q7pib5j51olnef7ase163kaccal5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqgz_vaIyhJkM1dI16b7v4ni49HdWGQOg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231043628485-6tm5q7pib5j51olnef7ase163kaccal5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="button_game_width">125dp</dimen>
+    <dimen name="button_game_height">125dp</dimen>
+    <dimen name="winLinePadding">16dp</dimen>
+</resources>

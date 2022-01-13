@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">xo</string>
+    <string name="txtName">שם שלך</string>
+    <string name="txtGamesPlayed">מספר משחקים</string>
+    <string name="error_weak_password">סיסמה חלשה</string>
+    <string name="error_user_exists">המשתמש בשימוש</string>
+    <string name="error_invalid_email">המשתמש שגוי</string>
+    <string name="auth_failed">סיסמה שגויה</string>
+    <string name="txtWon">ניצחת</string>
+    <string name="txtLost">הפסדת</string>
+    <string name="txtDraw">תיקו</string>
+    <string name="txtLogin">כניסה</string>
+    <string name="cbShowPass">הצג סיסמה</string>
+    <string name="btnLogin">כניסה למשחק</string>
+    <string name="btnForget">שכחת סיסמה</string>
+    <string name="btnLoginCreate">הירשם כאן</string>
+    <string name="txtItmPlyName">שם שלך</string>
+    <string name="txtItmPlyWin">ניצחתי</string>
+    <string name="txtItmPlyLoss">הפסדתי</string>
+    <string name="txtItmPlyGameDraw">תיקו</string>
+    <string name="txtItmPlyGameCount">מספר משחקים</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="btnLoginForgotPassword">שכחתי סיסמה</string>
+    <string name="chkLoginShowPassword">הצג סיסמה</string>
+    <string name="error_email_empty">לא הוספת אימיל</string>
+    <string name="title_login">התחבר</string>
+    <string name="txtGamePlayer1">השחקן הראשון</string>
+    <string name="txt_Statistic">סטטיסטי</string>
+    <string name="txtGamePlayer2">השחקן השני</string>
+    <string name="turnGameTime">זמן</string>
+    <string name="msg_game_invitation_rejected">הזמין אותן לשחק</string>
+    <string name="Disagree">לסרב</string>
+    <string name="Accept">לקבל</string>
+    <string name="Game_Invite">בקשה לשחק</string>
+    <string name="Title">שם</string>
+    <string name="cancel">סרב</string>
+    <string name="ok">הסכמה</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">xo</string>
+    <string name="txtGamesPlayed">عدد العاب</string>
+    <string name="error_weak_password">كلمة السر ضعيفه</string>
+    <string name="error_user_exists">المستخدم مستعمل مسبفا</string>
+    <string name="error_invalid_email">المستخدم غير صحيح</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="auth_failed">خطأ في المعطيات</string>
+    <string name="txtWon">ربح</string>
+    <string name="txtLost">خساره</string>
+    <string name="txtDraw">تعادل</string>
+    <string name="txtLogin">تسجيل الدخول</string>
+    <string name="cbShowPass">اظهار كلمة السر</string>
+    <string name="btnLogin">دخول</string>
+    <string name="btnForget">نسيت كلمة السر</string>
+    <string name="btnLoginCreate">التسجيل</string>
+    <string name="txtItmPlyName">الاسم</string>
+    <string name="txtItmPlyGameCount">عدد العاب</string>
+    <string name="txtItmPlyGameDraw">تعادل</string>
+    <string name="txtItmPlyLoss">خساره</string>
+    <string name="txtItmPlyWin">ربح</string>
+    <string name="btnLoginForgotPassword">نسيت كلمة السر</string>
+    <string name="title_login">اتصل</string>
+    <string name="error_email_empty">اضف البريد الالكتروني</string>
+    <string name="chkLoginShowPassword">اظهار كلمة المرور</string>
+    <string name="txtGamePlayer1">الاعب الاول</string>
+    <string name="txtName">الاسم</string>
+    <string name="txt_Statistic">احصائيات</string>
+    <string name="txtGamePlayer2">اللاعب الثاني</string>
+    <string name="turnGameTime">وقت</string>
+    <string name="msg_game_invitation_rejected">دعاك للعب</string>
+    <string name="Disagree">رفض</string>
+    <string name="Accept">قبول</string>
+    <string name="Game_Invite">دعوه للعب</string>
+    <string name="Title">الاسم</string>
+    <string name="cancel">رفض</string>
+    <string name="ok">موافق</string>
+
+</resources>
